@@ -47,7 +47,7 @@ img {
 
 /* LAYOUT */
 .container {
-    width: 1140px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -130,8 +130,13 @@ img {
 
  @media screen and (max-width: 480px){
     .container {
-        width: 480px;
+        width: 100%;
 
+ }
+
+
+ body{
+    width:100vw;.
  }
 
     .row{
@@ -147,7 +152,7 @@ img {
     }
 
     .text{
-        margin-bottom: 50px;
+        margin-bottom: 0 auto;
     }
 
     .card{
@@ -172,11 +177,13 @@ img {
         width:100%;
     }
 
-    
+    .site-header{
+        width:100%;
+    }
+}
 
-  
-
-   
-
-    
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .container{
+        width:100%;
+    }
 }
