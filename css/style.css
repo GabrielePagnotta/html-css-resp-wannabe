@@ -158,6 +158,22 @@ img {
         width:100%;
     }
 
+    .col .col-right{
+        padding:0;
+        
+    }
+
+    .why-us .col-left{
+        width: 100%;
+        
+    }
+
+    .why-us .col-right{
+        width:100%;
+    }
+
+    
+
   
 
    
